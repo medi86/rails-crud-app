@@ -4,3 +4,5 @@
 <p>Quantity: <%= @tool.quantity %></p>
 <p>Price: <%= @tool.name %></p>
 
+<%= link_to "Edit", edit_tool_path(@tool) %>
+<%= link_to "Delete", tool_path(@tool), method: 'delete' %>
